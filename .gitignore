@@ -1,0 +1,25 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+.sass-cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+.idea
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
