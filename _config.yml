@@ -4,7 +4,7 @@ email: gmrmgmrmal@gmail.com
 description: |
   1일 1커밋 가능할까
 baseurl: ''
-url: 'http://dgoo.github.io'
+url: 'https://dgoo.github.io'
 timezone: Asia/Seoul
 
 repository: dgoo/dgoo.github.io
