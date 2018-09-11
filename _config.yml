@@ -1,41 +1,65 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Dgoo's Blog
+title: dgoo 기술 블로그
 email: gmrmgmrmal@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  디구 블로그
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dgoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+description: |
+  1일 1커밋 가능할까
+baseurl: ''
+url: 'http://dgoo.github.io'
+timezone: Asia/Seoul
 
-# Build settings
+repository: dgoo/dgoo.github.io
+
+permalink: /:year/:month/:day/:title
+
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+krandown:
+  input: GFM
+  highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: '/page/:num'
+
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:path
+  tags:
+    output: true
+    permalink: /tags/:path
+
+defaults:
+  - scope:
+      path: ''
+      type: blogs
+    values:
+      layout: blogs
+  - scope:
+      path: ''
+      type: tags
+    values:
+      layout: tag
+
+exclude: [README.md, Gemfile, Gemfile.lock]
+
+keep_files: [assets]
+github: [metadata]
+
+name: 'dgoo'
+author: 'dgoo'
+author_image: '/assets/images/author.jpg'
+image: '/assets/images/default_cover.jpg'
+
+asset_url: /assets
+google_analytics:
+  ua: 'UA-125568239-1'
+facebook:
+  app_id: '2154627707894495'
+  username: dgoo
+# twitter:
+  # username: dgoo
+github_url:
+  username: dgoo
