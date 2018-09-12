@@ -211,7 +211,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   padding: 0 30px 0 15px; /* 30px(right-padding) = 15(right-padding) + 10(icon-width) + 5(@@iolo) */
   font-size: 14px;
   color: #505050;
-  background: url(../images/pc/icon_search.png) no-repeat right;
+  background: url(../images/desktop/icon_search.png) no-repeat right;
   background-size: 13px 13px;
   background-position-x: 135px; /* 135px = 160 - 15(right-padding) + 10(icon-width) */
 }
@@ -269,7 +269,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   right: 30px;
   bottom: 20px;
   z-index: 999;
-  background: url(../images/pc/icon_uarrow.png) no-repeat;
+  background: url(../images/desktop/icon_up_arrow.png) no-repeat;
   background-size: 29px 29px;
 }
 
@@ -330,19 +330,19 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 #link-github {
-  background-image: url(../images/pc/icon_git.png);
+  background-image: url(../images/desktop/icon_git.png);
 }
 
 #link-facebook {
-  background-image: url(../images/pc/icon_face.png);
+  background-image: url(../images/desktop/icon_face.png);
 }
 
 #link-twitter {
-  background-image: url(../images/pc/icon_twit.png);
+  background-image: url(../images/desktop/icon_twit.png);
 }
 
 #link-rss {
-  background-image: url(../images/pc/icon_rss.png);
+  background-image: url(../images/desktop/icon_rss.png);
 }
 
 #copyright {
@@ -443,7 +443,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 #link-back {
   padding-left: 17px; /* 17px = 10(spacing) + 7(icon width) */
-  background: url(../images/pc/icon_larrow.png) no-repeat left;
+  background: url(../images/desktop/icon_left_arrow.png) no-repeat left;
   background-size: 7px 11px;
 }
 
@@ -471,27 +471,27 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 #kakao-link-btn {
-  background: url(../images/pc/share_talk.png) no-repeat;
+  background: url(../images/desktop/share_talk.png) no-repeat;
   background-size: 20px 20px;
 }
 
 #share-kakaostory {
-  background: url(../images/pc/share_story.png) no-repeat;
+  background: url(../images/desktop/share_story.png) no-repeat;
   background-size: 20px 20px;
 }
 
 #share-facebook {
-  background: url(../images/pc/share_face.png) no-repeat;
+  background: url(../images/desktop/share_face.png) no-repeat;
   background-size: 20px 20px;
 }
 
 #share-twitter {
-  background: url(../images/pc/share_twit.png) no-repeat;
+  background: url(../images/desktop/share_twit.png) no-repeat;
   background-size: 20px 20px;
 }
 
 #share-google {
-  background: url(../images/pc/share_goo.png) no-repeat;
+  background: url(../images/desktop/share_goo.png) no-repeat;
   background-size: 20px 20px;
 }
 
@@ -559,7 +559,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   height: 60px;
   margin: 0 auto;
   border-radius: 100%;
-  background: url(../images/pc/default_pic_s.png) no-repeat center;
+  background: url(../images/desktop/default_pic_s.png) no-repeat center;
   background-size: cover;
 }
 
@@ -640,12 +640,12 @@ a.tag:hover {
 }
 
 #page-prev {
-  background: url(../images/pc/icon_pre.png) no-repeat center;
+  background: url(../images/desktop/icon_pre.png) no-repeat center;
   background-size: 6px 11px;
 }
 
 #page-next {
-  background: url(../images/pc/icon_next.png) no-repeat center;
+  background: url(../images/desktop/icon_next.png) no-repeat center;
   background-size: 6px 11px;
 }
 
@@ -865,7 +865,7 @@ body.tag-template #navbar {
   width: 60px;
   height: 60px;
   border-radius: 100%;
-  background: url(../images/pc/default_pic_s.png) no-repeat center;
+  background: url(../images/desktop/default_pic_s.png) no-repeat center;
   background-size: cover;
 }
 
@@ -892,7 +892,7 @@ body.tag-template #navbar {
   height: 120px;
   line-height: 120px;
   padding-right: 17px; /* 17px = 10(spacing) + 7(icon width) */
-  background: url(../images/pc/icon_rarrow.png) no-repeat right;
+  background: url(../images/desktop/icon_right_arrow.png) no-repeat right;
   background-size: 7px 11px;
   font-size: 14px;
 }
@@ -1064,13 +1064,13 @@ body.page-template {
 
   #menu-toggle {
       left: 0;
-      background: url(../images/mo/icon_menu.png) no-repeat center;
+      background: url(../images/mobile/icon_menu.png) no-repeat center;
       background-size: 22px 22px;
   }
 
   #search-toggle {
       right: 0;
-      background: url(../images/mo/icon_search.png) no-repeat center;
+      background: url(../images/mobile/icon_search.png) no-repeat center;
       background-size: 22px 22px;
   }
 
@@ -1082,7 +1082,7 @@ body.page-template {
       top: 0;
       height: 50px;
       margin: 0 auto;
-      background-image: url(../images/mo/tech_logo.png);
+      background-image: url(../images/mobile/tech_logo.png);
       background-size: 99px 17px;
   }
 
@@ -1123,7 +1123,7 @@ body.page-template {
   }
 
   #search > input {
-      background-image: url(../images/mo/icon_search.png);
+      background-image: url(../images/mobile/icon_search.png);
   }
 
   .search__results {
@@ -1152,19 +1152,19 @@ body.page-template {
   }
 
   #links-github {
-      background-image: url(../images/mo/icon_git.png);
+      background-image: url(../images/mobile/icon_git.png);
   }
 
   #links-facebook {
-      background-image: url(../images/mo/icon_face.png);
+      background-image: url(../images/mobile/icon_face.png);
   }
 
   #links-twitter {
-      background-image: url(../images/mo/icon_twit.png);
+      background-image: url(../images/mobile/icon_twit.png);
   }
 
   #links-rss {
-      background-image: url(../images/mo/icon_rss.png);
+      background-image: url(../images/mobile/icon_rss.png);
   }
 
   #footer-menu {
@@ -1175,7 +1175,7 @@ body.page-template {
       width: 36px;
       height: 36px;
       right: 20px;
-      background-image: url(../images/mo/icon_uarrow.png);
+      background-image: url(../images/mobile/icon_up_arrow.png);
       background-size: 36px 36px;
   }
 
@@ -1209,7 +1209,7 @@ body.page-template {
   }
 
   #link-back {
-      background-image: url(../images/mo/icon_larrow.png);
+      background-image: url(../images/mobile/icon_larrow.png);
       background-size: 10px 15px;
   }
 
@@ -1219,27 +1219,27 @@ body.page-template {
   }
 
   #kakao-link-btn {
-      background-image: url(../images/mo/share_talk.png);
+      background-image: url(../images/mobile/share_talk.png);
       background-size: 22px 22px;
   }
 
   #share-kakaostory {
-      background-image: url(../images/mo/share_story.png);
+      background-image: url(../images/mobile/share_story.png);
       background-size: 22px 22px;
   }
 
   #share-facebook {
-      background-image: url(../images/mo/share_face.png);
+      background-image: url(../images/mobile/share_face.png);
       background-size: 22px 22px;
   }
 
   #share-twitter {
-      background-image: url(../images/mo/share_twit.png);
+      background-image: url(../images/mobile/share_twit.png);
       background-size: 22px 22px;
   }
 
   #share-google {
-      background-image: url(../images/mo/share_goo.png);
+      background-image: url(../images/mobile/share_goo.png);
       background-size: 22px 22px;
   }
 
@@ -1296,7 +1296,7 @@ body.page-template {
       float: left;
       width: 32px; /* @@black 22 -> 32 */
       height: 32px; /* @@black 22 -> 32 */
-      background-image: url(../images/mo/default_pic_s.png);
+      background-image: url(../images/mobile/default_pic_s.png);
       background-size: cover;
   }
 
@@ -1334,12 +1334,12 @@ body.page-template {
   }
 
   #page-prev {
-      background-image: url(../images/mo/icon_larrow.png);
+      background-image: url(../images/mobile/icon_left_arrow.png);
       background-size: 10px 15px;
   }
 
   #page-next {
-      background-image: url(../images/mo/icon_rarrow.png);
+      background-image: url(../images/mobile/icon_right_arrow.png);
       background-size: 10px 15px;
   }
 
@@ -1380,7 +1380,7 @@ body.page-template {
       top: 25px; /* 25px = 100(#post-footer height) - 50(#author-image height) / 2 */
       width: 50px;
       height: 50px;
-      background-image: url(../images/mo/default_pic_s.png);
+      background-image: url(../images/mobile/default_pic_s.png);
       background-size: cover;
   }
 
@@ -1398,7 +1398,7 @@ body.page-template {
       height: 100px;
       line-height: 100px;
       padding-right: 20px; /* 20px = 10(spacing) + 10(icon width) */
-      background-image: url(../images/mo/icon_rarrow.png);
+      background-image: url(../images/mobile/icon_rarrow.png);
       background-size: 10px 15px;
   }
 
@@ -1442,7 +1442,7 @@ body.page-template {
       top: 49px; /* 49px = (170(#cover height) - 72(self height)) / 2 */
       width: 72px;
       height: 72px;
-      background-image: url(../images/mo/default_pic_l.png);
+      background-image: url(../images/mobile/default_pic_l.png);
       background-size: cover;
   }
 
@@ -1467,85 +1467,85 @@ body.page-template {
   }
 
   #logo {
-      background-image: url(../images/mo/tech_logo@2x.png);
+      background-image: url(../images/mobile/tech_logo@2x.png);
   }
 
   #menu-toggle {
-      background-image: url(../images/mo/icon_menu@2x.png);
+      background-image: url(../images/mobile/icon_menu@2x.png);
   }
 
   #search-toggle {
-      background-image: url(../images/mo/icon_search@2x.png);
+      background-image: url(../images/mobile/icon_search@2x.png);
   }
 
   #search > input {
-      background-image: url(../images/mo/icon_search@2x.png);
+      background-image: url(../images/mobile/icon_search@2x.png);
   }
 
   #back-to-top {
-      background-image: url(../images/mo/icon_uarrow@2x.png);
+      background-image: url(../images/mobile/icon_up_arrow@2x.png);
   }
 
   #page-prev {
-      background-image: url(../images/mo/icon_larrow@2x.png);
+      background-image: url(../images/mobile/icon_left_arrow@2x.png);
   }
 
   #page-next {
-      background-image: url(../images/mo/icon_rarrow@2x.png);
+      background-image: url(../images/mobile/icon_right_arrow@2x.png);
   }
 
   #link-github {
-      background-image: url(../images/mo/icon_git@2x.png);
+      background-image: url(../images/mobile/icon_git@2x.png);
   }
 
   #link-facebook {
-      background-image: url(../images/mo/icon_face@2x.png);
+      background-image: url(../images/mobile/icon_face@2x.png);
   }
 
   #link-twitter {
-      background-image: url(../images/mo/icon_twit@2x.png);
+      background-image: url(../images/mobile/icon_twit@2x.png);
   }
 
   #link-rss {
-      background-image: url(../images/mo/icon_rss@2x.png);
+      background-image: url(../images/mobile/icon_rss@2x.png);
   }
 
   #link-back {
-      background-image: url(../images/mo/icon_larrow@2x.png);
+      background-image: url(../images/mobile/icon_left_arrow@2x.png);
   }
 
   #kakao-link-btn {
-      background-image: url(../images/mo/share_talk@2x.png);
+      background-image: url(../images/mobile/share_talk@2x.png);
       background-size: 22px 22px;
   }
 
   #share-kakaostory {
-      background-image: url(../images/mo/share_story@2x.png);
+      background-image: url(../images/mobile/share_story@2x.png);
       background-size: 22px 22px;
   }
 
   #share-facebook {
-      background-image: url(../images/mo/share_face@2x.png);
+      background-image: url(../images/mobile/share_face@2x.png);
   }
 
   #share-twitter {
-      background-image: url(../images/mo/share_twit@2x.png);
+      background-image: url(../images/mobile/share_twit@2x.png);
   }
 
   #share-google {
-      background-image: url(../images/mo/share_goo@2x.png);
+      background-image: url(../images/mobile/share_goo@2x.png);
   }
 
   #post-list .author-image {
-      background-image: url(../images/mo/default_pic_s@2x.png);
+      background-image: url(../images/mobile/default_pic_s@2x.png);
   }
 
   #author-image {
-      background-image: url(../images/mo/default_pic_s@2x.png);
+      background-image: url(../images/mobile/default_pic_s@2x.png);
   }
 
   #cover-author-image {
-      background-image: url(../images/mo/default_pic_l@3x.png);
+      background-image: url(../images/mobile/default_pic_l@3x.png);
   }
 }
 
@@ -1557,84 +1557,72 @@ body.page-template {
   }
 
   #logo {
-      background-image: url(../images/mo/tech_logo@3x.png);
+      background-image: url(../images/mobile/tech_logo@3x.png);
   }
 
   #menu-toggle {
-      background-image: url(../images/mo/icon_menu@3x.png);
+      background-image: url(../images/mobile/icon_menu@3x.png);
   }
 
   #search-toggle {
-      background-image: url(../images/mo/icon_search@3x.png);
+      background-image: url(../images/mobile/icon_search@3x.png);
   }
 
   #search > input {
-      background-image: url(../images/mo/icon_search@3x.png);
+      background-image: url(../images/mobile/icon_search@3x.png);
   }
 
   #back-to-top {
-      background-image: url(../images/mo/icon_uarrow@3x.png);
+      background-image: url(../images/mobile/icon_up_arrow@3x.png);
   }
 
   #page-prev {
-      background-image: url(../images/mo/icon_larrow@3x.png);
+      background-image: url(../images/mobile/icon_left_arrow@3x.png);
   }
 
   #page-next {
-      background-image: url(../images/mo/icon_rarrow@3x.png);
+      background-image: url(../images/mobile/icon_rigth_arrow@3x.png);
   }
 
   #link-github {
-      background-image: url(../images/mo/icon_git@3x.png);
+      background-image: url(../images/mobile/icon_git@3x.png);
   }
 
   #link-facebook {
-      background-image: url(../images/mo/icon_face@3x.png);
+      background-image: url(../images/mobile/icon_face@3x.png);
   }
 
   #link-twitter {
-      background-image: url(../images/mo/icon_twit@3x.png);
+      background-image: url(../images/mobile/icon_twit@3x.png);
   }
 
   #link-rss {
-      background-image: url(../images/mo/icon_rss@3x.png);
+      background-image: url(../images/mobile/icon_rss@3x.png);
   }
 
   #link-back {
-      background-image: url(../images/mo/icon_larrow@3x.png);
+      background-image: url(../images/mobile/icon_left_arrow@3x.png);
   }
 
   #kakao-link-btn {
-      background-image: url(../images/mo/share_talk@3x.png);
+      background-image: url(../images/mobile/share_talk@3x.png);
       background-size: 22px 22px;
   }
 
   #share-kakaostory {
-      background-image: url(../images/mo/share_story@3x.png);
+      background-image: url(../images/mobile/share_story@3x.png);
       background-size: 22px 22px;
   }
 
   #share-facebook {
-      background-image: url(../images/mo/share_face@3x.png);
+      background-image: url(../images/mobile/share_face@3x.png);
   }
 
   #share-twitter {
-      background-image: url(../images/mo/share_twit@3x.png);
+      background-image: url(../images/mobile/share_twit@3x.png);
   }
 
   #share-google {
-      background-image: url(../images/mo/share_goo@3x.png);
-  }
-
-  #post-list .author-image {
-      background-image: url(../images/mo/default_pic_s@3x.png);
-  }
-
-  #author-image {
-      background-image: url(../images/mo/default_pic_s@3x.png);
-  }
-
-  #cover-author-image {
-      background-image: url(../images/mo/default_pic_l@3x.png);
+      background-image: url(../images/mobile/share_goo@3x.png);
   }
 }
